@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left ,yellow,lightblue,red);
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding-right: 0px;
+}
+
+.firstred{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.seccondgreen{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.thirdblue{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fouryellow{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
