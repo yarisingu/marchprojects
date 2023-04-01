@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="slidebar">
-        <div class="top">
+        <div class="top"> 
             <div class="logo">
                 <i class="bx bxl-codepen"></i>
                 <span>Code comerese</span>
@@ -19,10 +19,10 @@
         </div>
         <div class="user">
             <img src="DSC_0421 copy (1).jpg" alt="" class="user-img">
-        </div>
-        <div>
-            <p class="bold">Clint</p>
-            <p>Admin</p>
+            <div>
+                <p class="bold">Clint</p>
+                <p>Admin</p>
+            </div>
         </div>
         <ul>
             <li>
@@ -83,11 +83,20 @@
             </li>
         </ul>
     </div>
+
+
+    <div class="main-content">
+        <div class="container">
+            <h1>code comerese</h1>
+        </div>
+    </div>
+
+
 </body>
 
 <script>
-    let btn = document.querySelector("#btn");
-    let sidebar = document.querySelector(".slidebar");
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.slidebar');
     btn.onclick = function() {
         sidebar.classList.toggle('active');
     };
